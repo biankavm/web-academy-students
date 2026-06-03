@@ -1,18 +1,16 @@
 "use client";
 import React from "react";
 
-export default function Carrinho() {
-  const valorTotalProduto = (
-    precoUnitario: number,
-    quantidade: number,
-  ): number => precoUnitario * quantidade;
+export default function Cart() {
+  const getProductTotal = (price: number, quantity: number): number =>
+    price * quantity;
 
   return (
     <>
       <nav className="navbar navbar-expand-md bg-light border-bottom border-body sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            WA Tech Store
+            WA Loja
           </a>
           <button
             className="navbar-toggler"
@@ -68,7 +66,7 @@ export default function Carrinho() {
                       <td>R$ {(2200).toFixed(2)}</td>
                       <td>1</td>
 
-                      <td>R$ {valorTotalProduto(2200, 1).toFixed(2)}</td>
+                      <td>R$ {getProductTotal(2200, 1).toFixed(2)}</td>
                       <td>
                         <button className="btn btn-danger btn-sm">
                           Remover
@@ -81,7 +79,7 @@ export default function Carrinho() {
                       <td>R$ {(450).toFixed(2)}</td>
                       <td>2</td>
 
-                      <td>R$ {valorTotalProduto(450, 2).toFixed(2)}</td>
+                      <td>R$ {getProductTotal(450, 2).toFixed(2)}</td>
                       <td>
                         <button className="btn btn-danger btn-sm">
                           Remover
@@ -94,7 +92,7 @@ export default function Carrinho() {
                       <td>R$ {(350).toFixed(2)}</td>
                       <td>2</td>
 
-                      <td>R$ {valorTotalProduto(350, 2).toFixed(2)}</td>
+                      <td>R$ {getProductTotal(350, 2).toFixed(2)}</td>
                       <td>
                         <button className="btn btn-danger btn-sm">
                           Remover

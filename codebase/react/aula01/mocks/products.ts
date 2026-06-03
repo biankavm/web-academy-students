@@ -1,154 +1,154 @@
-export const mockProdutos: Produto[] = [
+export const mockProducts: Product[] = [
   {
     id: "notebook-ultra",
-    fotos: [
+    images: [
       {
-        titulo: "notebook-4",
+        title: "notebook-4",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/notebook-2.jpg",
       },
       {
-        titulo: "smartwatch-2",
+        title: "smartwatch-2",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/smartwatch-2.jpg",
       },
     ],
-    nome: "Notebook Ultra Slim",
-    preco: "2899",
-    descricao:
+    name: "Notebook Ultra Slim",
+    price: "2899",
+    description:
       "Gostaria de enfatizar que o início da atividade geral de formação de atitudes pode nos levar a considerar.",
-    vendido: "false",
-    usuario_id: "lobo@origamid.com",
+    isSold: false,
+    userId: "lobo@origamid.com",
   },
   {
     id: "smartphone-s24",
-    fotos: [
+    images: [
       {
-        titulo: "smartphone-3",
+        title: "smartphone-3",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/smartphone-2.jpg",
       },
       {
-        titulo: "tablet-3",
+        title: "tablet-3",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/tablet-2.jpg",
       },
     ],
-    nome: "Smartphone Galaxy S24",
-    preco: "4199",
-    descricao:
+    name: "Smartphone Galaxy S24",
+    price: "4199",
+    description:
       "Gostaria de enfatizar que o início da atividade geral de formação de atitudes pode nos levar a considerar.",
-    vendido: "false",
-    usuario_id: "lobo@origamid.com",
+    isSold: false,
+    userId: "lobo@origamid.com",
   },
   {
     id: "camera-4k",
-    fotos: [
+    images: [
       {
-        titulo: "camera-2",
+        title: "camera-2",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/camera.jpg",
       },
     ],
-    nome: "Câmera Mirrorless 4K",
-    preco: "3499",
-    descricao:
+    name: "Câmera Mirrorless 4K",
+    price: "3499",
+    description:
       "Gostaria de enfatizar que o início da atividade geral de formação de atitudes pode nos levar a considerar.",
-    vendido: "false",
-    usuario_id: "lobo@origamid.com",
+    isSold: false,
+    userId: "lobo@origamid.com",
   },
   {
     id: "smartwatch-active",
-    fotos: [
+    images: [
       {
-        titulo: "smartwatch-2",
+        title: "smartwatch-2",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/smartwatch-1.jpg",
       },
     ],
-    nome: "Smartwatch Active",
-    preco: "1450",
-    descricao:
+    name: "Smartwatch Active",
+    price: "1450",
+    description:
       "Caros amigos, o comprometimento entre as equipes ainda não demonstrou convincentemente.",
-    vendido: "false",
-    usuario_id: "lobo@origamid.com",
+    isSold: false,
+    userId: "lobo@origamid.com",
   },
   {
     id: "notebook-workstation",
-    fotos: [
+    images: [
       {
-        titulo: "notebook-3",
+        title: "notebook-3",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/notebook-1.jpg",
       },
     ],
-    nome: "Notebook Pro Workstation",
-    preco: "6200",
-    descricao:
+    name: "Notebook Pro Workstation",
+    price: "6200",
+    description:
       "Caros amigos, o comprometimento entre as equipes ainda não demonstrou convincentemente.",
-    vendido: "false",
-    usuario_id: "lobo@origamid.com",
+    isSold: false,
+    userId: "lobo@origamid.com",
   },
   {
     id: "tablet-pad",
-    fotos: [
+    images: [
       {
-        titulo: "tablet-2",
+        title: "tablet-2",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/tablet-1.jpg",
       },
     ],
-    nome: "Tablet Pad Pro",
-    preco: "2100",
-    descricao:
+    name: "Tablet Pad Pro",
+    price: "2100",
+    description:
       "Gostaria de enfatizar que o início da atividade geral de formação de atitudes pode nos levar a considerar.",
-    vendido: "false",
-    usuario_id: "lobo@origamid.com",
+    isSold: false,
+    userId: "lobo@origamid.com",
   },
   {
     id: "iphone-15",
-    fotos: [
+    images: [
       {
-        titulo: "smartphone-2",
+        title: "smartphone-2",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/smartphone-1.jpg",
       },
       {
-        titulo: "smartwatch",
+        title: "smartwatch",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/smartwatch.jpg",
       },
     ],
-    nome: "iPhone 15 Pro Max",
-    preco: "7499",
-    descricao: "Novo smartphone de última geração.",
-    vendido: "false",
-    usuario_id: "joao@gmail.com",
+    name: "iPhone 15 Pro Max",
+    price: "7499",
+    description: "Novo smartphone de última geração.",
+    isSold: false,
+    userId: "joao@gmail.com",
   },
   {
     id: "smartspeaker-alexa",
-    fotos: [
+    images: [
       {
-        titulo: "speaker",
+        title: "speaker",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/speaker.jpg",
       },
       {
-        titulo: "tablet",
+        title: "tablet",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/tablet.jpg",
       },
     ],
-    nome: "Home Speaker Smart",
-    preco: "899",
-    descricao: "Esse é um speaker com comando de voz.",
-    vendido: "false",
-    usuario_id: "maria@origamid.com",
+    name: "Home Speaker Smart",
+    price: "899",
+    description: "Esse é um speaker com comando de voz.",
+    isSold: false,
+    userId: "maria@origamid.com",
   },
   {
     id: "notebook-edu",
-    fotos: [
+    images: [
       {
-        titulo: "notebook-2",
+        title: "notebook-2",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/notebook.jpg",
       },
       {
-        titulo: "smartphone",
+        title: "smartphone",
         src: "https://ranekapi.origamid.dev/wp-content/uploads/2019/03/smartphone.jpg",
       },
     ],
-    nome: "Notebook Plus",
-    preco: "1999.90",
-    descricao: "Esse é um notebook ideal para estudos.",
-    vendido: "false",
-    usuario_id: "maria@origamid.com",
+    name: "Notebook Plus",
+    price: "1999.90",
+    description: "Esse é um notebook ideal para estudos.",
+    isSold: false,
+    userId: "maria@origamid.com",
   },
 ];

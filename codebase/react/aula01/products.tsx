@@ -2,13 +2,13 @@
 import Image from "next/image";
 import React from "react";
 
-export default function Produtos() {
+export default function Products() {
   return (
     <>
       <nav className="navbar navbar-expand-md bg-light border-bottom border-body sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            WA Tech Store
+            WA Loja
           </a>
           <button
             className="navbar-toggler"
