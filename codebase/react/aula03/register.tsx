@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link'
 
-export default function Cadastro() {
+export default function Register() {
   return (
     <main>
       <div className="container-fluid d-flex min-vh-100">
@@ -76,5 +76,5 @@ export default function Cadastro() {
         </div>
       </div>
     </main>
-  );
+  )
 }

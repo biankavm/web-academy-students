@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import Image from "next/image";
+import Image from 'next/image'
 
-export default function Produto() {
+export default function ProductDetail() {
   return (
     <main>
       <div className="container p-5">
@@ -13,7 +13,7 @@ export default function Produto() {
             <h5 className="card-title mb-4 fw-bold">Nome produto</h5>
 
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mb-3">
-              <Image key={""} src={""} alt={""} width={300} height={320} />
+              <Image key={''} src={''} alt={''} width={300} height={320} />
             </div>
 
             <p className="card-text fw-medium">
@@ -27,5 +27,5 @@ export default function Produto() {
         </div>
       </div>
     </main>
-  );
+  )
 }
