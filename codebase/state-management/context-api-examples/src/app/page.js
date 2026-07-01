@@ -1,8 +1,7 @@
-"use client";
-import React from "react";
-import List from "./components/ListV2";
-import ThemeToggleButton from "./components/ThemeToggleButton";
-import ThemeProvider from "./State/ThemeProvider";
+'use client'
+import List from './components/ListV2'
+import ThemeToggleButton from './components/ThemeToggleButton'
+import ThemeProvider from './State/ThemeProvider'
 
 const App = () => {
   return (
@@ -12,7 +11,7 @@ const App = () => {
       <ThemeToggleButton />
       <List />
     </ThemeProvider>
-  );
-};
+  )
+}
 
-export default App;
+export default App

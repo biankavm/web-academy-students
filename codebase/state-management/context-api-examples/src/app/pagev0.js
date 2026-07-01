@@ -1,26 +1,26 @@
-"use client";
-import React, { createContext, useState } from "react";
-import List from "./components/ListV0";
+'use client'
+import { createContext, useState } from 'react'
+import Lista from './components/listav0'
 
-export const ThemeContext = createContext();
+export const ThemeContext = createContext()
 
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState('light')
 
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
-  };
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'))
+  }
 
   return (
     <ThemeContext.Provider value={theme}>
       <h1>Home</h1>
       <button onClick={toggleTheme}>
-        {theme === "light" ? "Ativar modo escuro" : "Ativar modo claro"}
+        {theme === 'light' ? 'Ativar modo escuro' : 'Ativar modo claro'}
       </button>
 
-      <List />
+      <Lista />
     </ThemeContext.Provider>
-  );
-};
+  )
+}
 
-export default App;
+export default App

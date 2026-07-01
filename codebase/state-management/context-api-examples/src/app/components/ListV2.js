@@ -1,17 +1,17 @@
-import { useContext } from "react";
-import { ThemeContext } from "../State/ThemeProvider";
+import { useContext } from 'react'
+import { ThemeContext } from '../State/ThemeProvider'
 
 export default function List() {
-  const { themeConfig } = useContext(ThemeContext);
+  const { themeConfig } = useContext(ThemeContext)
 
   return (
     <div
       style={{
         color: themeConfig.textColor,
         backgroundColor: themeConfig.backgroundColor,
-        border: "5px orange solid",
-        padding: "10px",
-        marginTop: "20px",
+        border: '5px orange solid',
+        padding: '10px',
+        marginTop: '20px'
       }}
     >
       <h1>Lista</h1>
@@ -22,5 +22,5 @@ export default function List() {
         <li>Item 3</li>
       </ul>
     </div>
-  );
+  )
 }
