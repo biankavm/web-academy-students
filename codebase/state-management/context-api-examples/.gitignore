@@ -1,0 +1,4 @@
+/node_modules
+.tool-versions
+.next/
+next-env.d.ts

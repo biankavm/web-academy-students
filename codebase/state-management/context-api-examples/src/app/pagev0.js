@@ -1,6 +1,6 @@
 'use client'
 import { createContext, useState } from 'react'
-import Lista from './components/listav0'
+import List from './components/ListV0'
 
 export const ThemeContext = createContext()
 
@@ -18,7 +18,7 @@ const App = () => {
         {theme === 'light' ? 'Ativar modo escuro' : 'Ativar modo claro'}
       </button>
 
-      <Lista />
+      <List />
     </ThemeContext.Provider>
   )
 }
