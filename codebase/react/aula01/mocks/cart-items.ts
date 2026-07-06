@@ -1,5 +1,5 @@
-export const mockCartItems: CartItem[] = [
-  { id: "1", name: "Teclado Mecânico", price: 450, quantity: 1 },
-  { id: "2", name: "Mousepad XL", price: 120, quantity: 2 },
-  { id: "3", name: "Headset 7.1 Surround", price: 350, quantity: 1 },
-];
+export const mockCartItems: CartItems[] = [
+  { id: '1', nome: 'Bicicleta', preco: 1000, quantidade: 2 },
+  { id: '2', nome: 'Echo dot', preco: 600, quantidade: 1 },
+  { id: '3', nome: 'Celular', preco: 1500, quantidade: 3 }
+]
