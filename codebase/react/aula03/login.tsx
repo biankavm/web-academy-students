@@ -7,19 +7,14 @@ export default function Login() {
     <main>
       <div className='container-fluid d-flex min-vh-100'>
         <div className='row min-vw-100'>
-          <div className='col-12 col-md-4 bg-light d-flex flex-column justify-content-center align-items-center text-center p-4'>
-            <h2>Bem vindo à WA Social!</h2>
-            <p className='text-secondary'>
-              Encontre pessoas e acompanhe o que elas publicam.
-            </p>
-          </div>
+          <div className='col-12 col-md-4 bg-light d-flex justify-content-center align-items-center'>
+            <h2>Bem vindo à WA Loja!</h2>
+          </div>{' '}
           <div className='col-12 col-md-8 d-flex justify-content-center align-items-center'>
             <form>
-              <h4 className='mb-4'>Entrar</h4>
-
               <div className='mb-3'>
                 <label htmlFor='email' className='form-label'>
-                  E-mail
+                  Email
                 </label>
                 <input
                   type='email'
@@ -42,7 +37,7 @@ export default function Login() {
               </div>
 
               <div className='d-grid col-12'>
-                <button type='submit' className='btn btn-primary btn-lg'>
+                <button type='submit' className='btn btn-success'>
                   Entrar
                 </button>
               </div>

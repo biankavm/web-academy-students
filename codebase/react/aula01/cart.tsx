@@ -1,15 +1,15 @@
 'use client'
 
-export default function Following() {
-  const formatFollowers = (followers: number): string =>
-    followers.toLocaleString('pt-BR')
+export default function Cart() {
+  const getProductTotal = (price: number, quantity: number): number =>
+    price * quantity
 
   return (
     <>
       <nav className='navbar navbar-expand-md bg-light border-bottom border-body sticky-top'>
         <div className='container-fluid'>
           <a className='navbar-brand' href='/'>
-            WA Social
+            WA Loja
           </a>
           <button
             className='navbar-toggler'
@@ -26,12 +26,12 @@ export default function Following() {
             <ul className='navbar-nav me-auto mb-2 mb-md-0'>
               <li className='nav-item'>
                 <a className='nav-link' href='/'>
-                  Descobrir
+                  Início
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/following'>
-                  Seguindo
+                <a className='nav-link' href='/cart'>
+                  Carrinho
                 </a>
               </li>
             </ul>
@@ -45,47 +45,56 @@ export default function Following() {
         <div className='container p-5'>
           <div className='card mb-4'>
             <div className='row card-body'>
-              <h5 className='card-title mb-4 fw-light'>Pessoas que você segue</h5>
+              <h5 className='card-title mb-4 fw-light'>
+                Produtos selecionados
+              </h5>
               <div className='table-responsive'>
                 <table className='table '>
                   <thead>
                     <tr>
-                      <th>Pessoa</th>
-                      <th>Usuário</th>
-                      <th>Seguidores</th>
+                      <th>Produto</th>
+                      <th>Valor Unitário</th>
+                      <th>Quantidade</th>
+                      <th>Valor Total</th>
                       <th>Opções</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr key='ana-souza'>
-                      <td>Ana Souza</td>
-                      <td className='text-secondary'>@anasouza</td>
-                      <td>{formatFollowers(1240)}</td>
+                    <tr key='prod-1'>
+                      <td>Monitor UltraWide 34"</td>
+                      <td>R$ {(2200).toFixed(2)}</td>
+                      <td>1</td>
+
+                      <td>R$ {getProductTotal(2200, 1).toFixed(2)}</td>
                       <td>
                         <button className='btn btn-danger btn-sm'>
-                          Deixar de seguir
+                          Remover
                         </button>
                       </td>
                     </tr>
 
-                    <tr key='marina-castro'>
-                      <td>Marina Castro</td>
-                      <td className='text-secondary'>@marinacastro</td>
-                      <td>{formatFollowers(8930)}</td>
+                    <tr key='prod-2'>
+                      <td>Teclado Mecânico RGB</td>
+                      <td>R$ {(450).toFixed(2)}</td>
+                      <td>2</td>
+
+                      <td>R$ {getProductTotal(450, 2).toFixed(2)}</td>
                       <td>
                         <button className='btn btn-danger btn-sm'>
-                          Deixar de seguir
+                          Remover
                         </button>
                       </td>
                     </tr>
 
-                    <tr key='carla-mendes'>
-                      <td>Carla Mendes</td>
-                      <td className='text-secondary'>@carlamendes</td>
-                      <td>{formatFollowers(2470)}</td>
+                    <tr key='prod-3'>
+                      <td>Mouse Gamer Sem Fio</td>
+                      <td>R$ {(350).toFixed(2)}</td>
+                      <td>2</td>
+
+                      <td>R$ {getProductTotal(350, 2).toFixed(2)}</td>
                       <td>
                         <button className='btn btn-danger btn-sm'>
-                          Deixar de seguir
+                          Remover
                         </button>
                       </td>
                     </tr>
@@ -97,10 +106,10 @@ export default function Following() {
 
           <div className='card mb-4'>
             <div className='card-body'>
-              <h5 className='card-title mb-4 fw-light'>Resumo</h5>
-              <p className='card-text fw-medium'>Seguindo: 3</p>
+              <h5 className='card-title mb-4 fw-light'>Resumo do Carrinho</h5>
+              <p className='card-text fw-medium'>Quantidade total: 5</p>
               <p className='card-text fw-medium'>
-                Alcance total: {(12640).toLocaleString('pt-BR')} pessoas
+                Valor total: R${(3800).toFixed(2)}
               </p>
             </div>
           </div>

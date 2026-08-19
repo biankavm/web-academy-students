@@ -5,16 +5,11 @@ export default function Register() {
     <main>
       <div className='container-fluid d-flex min-vh-100'>
         <div className='row min-vw-100'>
-          <div className='col-12 col-md-4 bg-light d-flex flex-column justify-content-center align-items-center text-center p-4'>
-            <h2>Bem vindo à WA Social!</h2>
-            <p className='text-secondary'>
-              Crie seu perfil e comece a seguir pessoas.
-            </p>
+          <div className='col-12 col-md-4 bg-light d-flex justify-content-center align-items-center'>
+            <h2>Bem vindo à WA Loja!</h2>
           </div>
-          <div className='col-12 col-md-8 d-flex justify-content-center align-items-center py-4'>
+          <div className='col-12 col-md-8 d-flex justify-content-center align-items-center'>
             <form>
-              <h4 className='mb-4'>Criar conta</h4>
-
               <div className='mb-3'>
                 <label htmlFor='name' className='form-label'>
                   Nome
@@ -29,24 +24,8 @@ export default function Register() {
               </div>
 
               <div className='mb-3'>
-                <label htmlFor='usuario' className='form-label'>
-                  Usuário
-                </label>
-                <div className='input-group input-group-lg'>
-                  <span className='input-group-text'>@</span>
-                  <input
-                    type='text'
-                    className='form-control'
-                    id='usuario'
-                    aria-describedby='usuario'
-                    required
-                  />
-                </div>
-              </div>
-
-              <div className='mb-3'>
                 <label htmlFor='email' className='form-label'>
-                  E-mail
+                  Email
                 </label>
                 <input
                   type='email'
@@ -59,7 +38,7 @@ export default function Register() {
 
               <div className='mb-3'>
                 <label htmlFor='confirmEmail' className='form-label'>
-                  Confirmar e-mail
+                  Confirmar email
                 </label>
                 <input
                   type='email'
@@ -82,8 +61,8 @@ export default function Register() {
               </div>
 
               <div className='d-grid col-12'>
-                <button type='submit' className='btn btn-primary btn-lg'>
-                  Cadastrar
+                <button type='submit' className='btn btn-success'>
+                  Confirmar cadastro
                 </button>
               </div>
 
