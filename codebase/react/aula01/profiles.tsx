@@ -59,7 +59,7 @@ export default function Profiles() {
                 <div className='card-body d-flex flex-column align-items-center'>
                   <Image
                     className='rounded-circle border mb-3'
-                    src='https://api.dicebear.com/9.x/avataaars/png?seed=ana-souza&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+                    src='https://api.dicebear.com/9.x/notionists/png?seed=ana-souza&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
                     alt='avatar de Ana Souza'
                     width={96}
                     height={96}
@@ -84,7 +84,7 @@ export default function Profiles() {
                 <div className='card-body d-flex flex-column align-items-center'>
                   <Image
                     className='rounded-circle border mb-3'
-                    src='https://api.dicebear.com/9.x/avataaars/png?seed=joao-lima&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+                    src='https://api.dicebear.com/9.x/notionists/png?seed=joao-lima&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
                     alt='avatar de João Lima'
                     width={96}
                     height={96}
@@ -109,7 +109,7 @@ export default function Profiles() {
                 <div className='card-body d-flex flex-column align-items-center'>
                   <Image
                     className='rounded-circle border mb-3'
-                    src='https://api.dicebear.com/9.x/avataaars/png?seed=marina-castro&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+                    src='https://api.dicebear.com/9.x/notionists/png?seed=marina-castro&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
                     alt='avatar de Marina Castro'
                     width={96}
                     height={96}
@@ -134,7 +134,7 @@ export default function Profiles() {
                 <div className='card-body d-flex flex-column align-items-center'>
                   <Image
                     className='rounded-circle border mb-3'
-                    src='https://api.dicebear.com/9.x/avataaars/png?seed=pedro-alves&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+                    src='https://api.dicebear.com/9.x/notionists/png?seed=pedro-alves&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
                     alt='avatar de Pedro Alves'
                     width={96}
                     height={96}

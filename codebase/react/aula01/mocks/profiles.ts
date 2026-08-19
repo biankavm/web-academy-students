@@ -4,7 +4,7 @@ export const mockProfiles: Profile[] = [
     midias: [
       {
         titulo: 'avatar de Ana Souza',
-        src: 'https://api.dicebear.com/9.x/avataaars/png?seed=ana-souza&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+        src: 'https://api.dicebear.com/9.x/notionists/png?seed=ana-souza&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
       },
       {
         titulo: 'capa de Ana Souza',
@@ -24,7 +24,7 @@ export const mockProfiles: Profile[] = [
     midias: [
       {
         titulo: 'avatar de João Lima',
-        src: 'https://api.dicebear.com/9.x/avataaars/png?seed=joao-lima&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+        src: 'https://api.dicebear.com/9.x/notionists/png?seed=joao-lima&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
       },
       {
         titulo: 'capa de João Lima',
@@ -44,7 +44,7 @@ export const mockProfiles: Profile[] = [
     midias: [
       {
         titulo: 'avatar de Marina Castro',
-        src: 'https://api.dicebear.com/9.x/avataaars/png?seed=marina-castro&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+        src: 'https://api.dicebear.com/9.x/notionists/png?seed=marina-castro&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
       },
       {
         titulo: 'capa de Marina Castro',
@@ -64,7 +64,7 @@ export const mockProfiles: Profile[] = [
     midias: [
       {
         titulo: 'avatar de Pedro Alves',
-        src: 'https://api.dicebear.com/9.x/avataaars/png?seed=pedro-alves&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+        src: 'https://api.dicebear.com/9.x/notionists/png?seed=pedro-alves&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
       },
       {
         titulo: 'capa de Pedro Alves',
@@ -84,7 +84,7 @@ export const mockProfiles: Profile[] = [
     midias: [
       {
         titulo: 'avatar de Carla Mendes',
-        src: 'https://api.dicebear.com/9.x/avataaars/png?seed=carla-mendes&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
+        src: 'https://api.dicebear.com/9.x/notionists/png?seed=carla-mendes&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf'
       },
       {
         titulo: 'capa de Carla Mendes',
