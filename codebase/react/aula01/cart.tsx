@@ -6,9 +6,9 @@ export default function Cart() {
 
   return (
     <>
-      <nav className='navbar navbar-expand-md bg-light border-bottom border-body sticky-top'>
+      <nav className='navbar navbar-expand-md bg-body border-bottom sticky-top'>
         <div className='container-fluid'>
-          <a className='navbar-brand' href='/'>
+          <a className='navbar-brand fw-bold' href='/'>
             WA Loja
           </a>
           <button
@@ -36,16 +36,16 @@ export default function Cart() {
               </li>
             </ul>
 
-            <button className='btn btn-dark'>Sair</button>
+            <button className='btn btn-primary rounded-3'>Sair</button>
           </div>
         </div>
       </nav>
 
       <main>
         <div className='container p-5'>
-          <div className='card mb-4'>
+          <div className='card mb-4 border-0 shadow-sm rounded-4'>
             <div className='row card-body'>
-              <h5 className='card-title mb-4 fw-light'>
+              <h5 className='card-title mb-4 fw-semibold'>
                 Produtos selecionados
               </h5>
               <div className='table-responsive'>
@@ -104,9 +104,9 @@ export default function Cart() {
             </div>
           </div>
 
-          <div className='card mb-4'>
+          <div className='card mb-4 border-0 shadow-sm rounded-4'>
             <div className='card-body'>
-              <h5 className='card-title mb-4 fw-light'>Resumo do Carrinho</h5>
+              <h5 className='card-title mb-4 fw-semibold'>Resumo do Carrinho</h5>
               <p className='card-text fw-medium'>Quantidade total: 5</p>
               <p className='card-text fw-medium'>
                 Valor total: R${(3800).toFixed(2)}
